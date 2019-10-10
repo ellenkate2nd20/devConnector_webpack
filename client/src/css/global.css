@@ -1,0 +1,37 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:  border-box;
+}
+
+:root
+{
+	--background-black: #000;
+	--background-gray: #f1f1f1;
+	--background-white: #fff;
+
+	--color-red: #c31a62;
+	--color-yellow: #fedd82;
+
+	--font-size-s: 0.8rem;
+	--font-size-m: 1rem;
+	--font-size-l: 2rem;
+
+	--font-weight-m: 200;
+	--font-weight-l: 400;
+
+	--margin-s: 4px;
+	--margin-m: 8px;
+	--margin-l: 12px;
+}
+
+html
+{
+	font-family: Roboto, sans-seriff;
+}
+
+body
+{
+	background: url('./../img/back.png');
+}

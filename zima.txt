@@ -1,0 +1,14 @@
+- create heroku account
+- download heroku-cli
+- in cmd -> enter 'heroku login' -> log in user and password
+- in cmd at project -> enter 'heroku create'
+- in heroku.com homepage created new link
+- setting enviroment key in 'config vars'
+- in cmd -> enter 'git init'
+- in deploy navbar -> copy git repo from 'existing git repo'
+- enter link to cmd
+- in package.json -> in 'scripts' -> add "start": "node index.js" & "heroku-postbuild": "webpack -p"
+- in cmd -> enter 'heroku config:set NPM_CONFIG_PRODUCTION=false' to install devDependencies
+- in cmd -> enter 'git add .' 
+- in cmd -> enter 'git commit -m "something"'
+- in cmd -> enter 'git push heroku master'
